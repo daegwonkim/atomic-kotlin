@@ -1,4 +1,4 @@
-package chapter06
+package chapter01.functions
 
 fun multiplyByFour(x: Int) = x * 4
 

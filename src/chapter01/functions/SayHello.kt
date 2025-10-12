@@ -1,4 +1,4 @@
-package chapter06
+package chapter01.functions
 
 fun sayHello() {
     println("Hello!")
