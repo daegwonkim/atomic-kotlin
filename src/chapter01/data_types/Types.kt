@@ -1,4 +1,4 @@
-package chapter05
+package chapter01.data_types
 
 fun main() {
     val whole: Int = 11

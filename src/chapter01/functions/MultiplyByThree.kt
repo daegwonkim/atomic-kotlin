@@ -1,4 +1,4 @@
-package chapter06
+package chapter01.functions
 
 fun multiplyByThree(x: Int): Int = x * 3
 

@@ -1,4 +1,4 @@
-package chapter07
+package chapter01.if_expressions
 
 fun main() {
     val num = 10

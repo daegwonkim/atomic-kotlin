@@ -1,4 +1,4 @@
-package chapter04
+package chapter01.var_and_val
 
 fun main() {
     var sum = 1
