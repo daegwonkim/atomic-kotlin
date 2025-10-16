@@ -14,7 +14,7 @@ open class GreatApe2 {
     fun energyLevel() = "Energy: $energy"
 }
 
-class Bonobo : GreatApe2() {
+class Bonobo2 : GreatApe2() {
     override fun call() = "Eep!"
     override fun eat() {
         // Modify the base-class var:
@@ -26,7 +26,7 @@ class Bonobo : GreatApe2() {
     fun run() = "Bonobo run"
 }
 
-class Chimpanzee : GreatApe2() {
+class Chimpanzee2 : GreatApe2() {
     // New property:
     val additionalEnergy = 20
     override fun call() = "Yawp!"
@@ -50,6 +50,6 @@ fun main() {
     // Cannot access 'energy':
     // GreatApe().energy
     talk(GreatApe2()) eq "Hoo! Energy: 0"
-    talk(Bonobo()) eq "Eep! Energy: 10"
-    talk(Chimpanzee()) eq "Yawp! Energy: 20"
+    talk(Bonobo2()) eq "Eep! Energy: 10"
+    talk(Chimpanzee2()) eq "Yawp! Energy: 20"
 }
